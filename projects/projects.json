@@ -1,0 +1,11 @@
+[
+  {
+    "name": "STEPCONE 2025 Website",
+    "desc": "A website of the clg event STEPCONE. Built using HTML, CSS, JavaScript and Bootstrap.",
+    "image": "stepcone",
+    "category": "UI Design",
+    "links": {
+      "view": "https://gmrit.edu.in/stepcone/"
+    }
+  }
+]
