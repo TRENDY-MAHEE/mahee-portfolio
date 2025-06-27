@@ -63,15 +63,15 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "Mahee's Portfolio";
+            $("#favicon").attr("href", "assets/images/fav.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["UI Designer",  "web designing",],
+    strings: ["UI Designing", "Frontend Developing" ,"Web Designing", "AI-Powered Product Developer", "AI UX Developer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
