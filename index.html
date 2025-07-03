@@ -64,12 +64,6 @@
 </section>
 <!-- hero section ends -->
 
-<div class="image">
-    <img src="assets/images/favico.png" alt=" Gollapalli">
-</div>
-
-
-
 <!-- about section starts -->
 <section class="about" id="about">
     <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
@@ -131,43 +125,7 @@
   </div>
 </section>
 
-<!-- Theme Toggle Button -->
-<button id="theme-toggle" aria-label="Toggle Dark Mode" style="position: fixed; top: 1rem; right: 1rem; z-index: 999; background: #fff; border: none; border-radius: 50%; width: 44px; height: 44px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;">
-  <i class="fas fa-moon"></i>
-</button>
-<script>
-  // Simple theme toggle
-  const btn = document.getElementById('theme-toggle');
-  btn.onclick = function() {
-    document.body.classList.toggle('dark-theme');
-    btn.innerHTML = document.body.classList.contains('dark-theme')
-      ? '<i class="fas fa-sun"></i>'
-      : '<i class="fas fa-moon"></i>';
-  };
-</script>
-<style>
-  /* Dark theme styles */
-  .dark-theme {
-    background: #18191a !important;
-    color: #f1f1f1 !important;
-  }
-  .dark-theme section,
-  .dark-theme .box,
-  .dark-theme .container,
-  .dark-theme .tools-container {
-    background: #23272b !important;
-    color: #f1f1f1 !important;
-  }
-  .dark-theme .btn {
-    background: #333 !important;
-    color: #fff !important;
-  }
-  .dark-theme input,
-  .dark-theme textarea {
-    background: #23272b !important;
-    color: #f1f1f1 !important;
-    border-color: #444 !important;
-  }
+
 </style>
 <!-- skills section starts -->
 <section class="skills" id="skills">
